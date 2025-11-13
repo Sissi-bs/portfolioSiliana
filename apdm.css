@@ -1,0 +1,62 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+   background: url("bob.jpg") no-repeat center center/cover;
+  color: white;
+  line-height: 1.6;
+}
+
+/* SECTION PRÉSENTATION */
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  max-width: 1000px;
+  width: 100%;
+  gap: 50px;
+  align-items: center;
+}
+
+/* PHOTO */
+.photo img {
+  width: 250px;
+  border-radius: 15px;
+  object-fit: cover;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* INFORMATIONS */
+.info h1 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.info p {
+  font-size: 1.1em;
+  margin-bottom: 25px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .photo img {
+    width: 200px;
+    margin-bottom: 20px;
+  }
+}

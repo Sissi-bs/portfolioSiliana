@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: url("Tg.jpg") no-repeat center center/cover;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: hsl(60, 80%, 94%);
+  margin-bottom: 30px;
+}
+
+.timeline-item {
+  background: black;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 4px solid hsl(60, 80%, 94%);
+  text-align: left;
+}
+
+.timeline-item h2 {
+  color: hsl(60, 80%, 94%);
+  margin-bottom: 5px;
+}
+
+.timeline-item .year {
+  color: #777;
+  font-size: 0.9em;
+}

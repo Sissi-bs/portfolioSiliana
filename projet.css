@@ -1,0 +1,108 @@
+/* Reset global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: hsl(60, 80%, 94%);
+  color: white;
+  line-height: 1.6;
+}
+
+/* HEADER */
+.project-header {
+  background: url("Tg.jpg") no-repeat center center/cover;
+  color: white;
+  padding: 20px 0;
+}
+
+.project-header nav {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-header h1 {
+  font-size: 2em;
+}
+
+.project-header .back-btn {
+  background: black;
+  color: red;
+  padding: 8px 15px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project-header .back-btn:hover {
+  background: #16a085;
+  color: red;
+}
+
+/* SECTION */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 1.8em;
+  margin-bottom: 40px;
+  color: red;
+}
+
+/* CONTAINER DES PROJETS */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* CARTE DE PROJET */
+.project {
+  background: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  padding: 25px;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.project h3 {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.project p {
+  margin-bottom: 20px;
+}
+
+.project a {
+  display: inline-block;
+  text-decoration: none;
+  background: red;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.project a:hover {
+  background: blue;
+}
