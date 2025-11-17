@@ -13,7 +13,7 @@ h1 {
 }
 
 .timeline-item {
-  background: black;
+  background: hsl(60, 80%, 94%);
   padding: 15px;
   margin-bottom: 20px;
   border-left: 4px solid hsl(60, 80%, 94%);
@@ -21,7 +21,7 @@ h1 {
 }
 
 .timeline-item h2 {
-  color: hsl(60, 80%, 94%);
+  color: red;
   margin-bottom: 5px;
 }
 
