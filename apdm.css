@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* SECTION PRÉSENTATION */
 .about-me {
   display: flex;
   justify-content: center;
@@ -29,7 +27,6 @@ body {
   align-items: center;
 }
 
-/* PHOTO */
 .photo img {
   width: 250px;
   border-radius: 15px;
@@ -37,7 +34,6 @@ body {
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
-/* INFORMATIONS */
 .info h1 {
   color: white;
   margin-bottom: 20px;
@@ -48,7 +44,6 @@ body {
   margin-bottom: 25px;
 }
 
-/* RESPONSIVE */
 @media (max-width: 800px) {
   .container {
     flex-direction: column;
@@ -60,3 +55,4 @@ body {
     margin-bottom: 20px;
   }
 }
+
