@@ -1,4 +1,3 @@
-/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -16,7 +15,6 @@ body {
   line-height: 1.6;
 }
 
-/* SECTION ACCUEIL */
 .home {
   height: 100vh;
   display: flex;
@@ -47,7 +45,6 @@ body {
   animation: slideIn 1.5s ease-out;
 }
 
-/* Animation texte */
 @keyframes slideIn {
   from { transform: translateY(50px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
@@ -74,7 +71,6 @@ body {
   color: red;
 }
 
-/* SECTIONS */
 .section {
   padding: 80px 20px;
   text-align: center;
@@ -88,7 +84,6 @@ body {
   font-size: 2em;
 }
 
-/* RESPONSIVE */
 @media (max-width: 768px) {
   .home h1 {
     font-size: 2em;
@@ -103,3 +98,4 @@ body {
     gap: 15px;
   }
 }
+
