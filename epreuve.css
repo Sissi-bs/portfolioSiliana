@@ -1,0 +1,28 @@
+.section {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.section h2 {
+  color: #2a4d8f;
+}
+
+.section h3, .section h4 {
+  color: #333;
+}
+
+.section p {
+  margin-bottom: 10px;
+}
+
+.section ul {
+  margin-left: 20px;
+}
+
+#e5 {
+  background: #f5f7fa;
+  padding: 15px;
+  border-radius: 6px;
+}
